@@ -185,6 +185,3 @@ https://huggingface.co/jeromex1/lyra_DO_vert_mistral7B_qLoRA
 
 ---
 
-# 🧩 Short English Description (<300 chars)
-
-Specialized Mistral-7B QLoRA model for tomato nitrogen diagnosis using soil nitrate, pH, and green optical density from leaf scans. Outputs SPAD-equivalent and structured agronomic explanations, including stress and chlorosis detection.
