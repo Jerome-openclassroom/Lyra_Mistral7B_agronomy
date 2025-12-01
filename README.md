@@ -28,20 +28,21 @@ The project is part of a broader effort to build community-accessible AI tools f
 📁 Arborescence du dépôt — Lyra_Mistral7B_agronomy
 ```
 Lyra_Mistral7B_agronomy/
-├── README.md                           # 📘 Documentation principale (version FR)
+├── README.md                           # 📘 Main documentation (French version)
 ├── README_en.md                        # 📘 English version of the README
 
 ├── code/                               # 🧠 Training & inference scripts
-│   └── Lyra_DO_vert_7b.py              # Script Colab/QLoRA pour entraîner le modèle 7B
+│   └── Lyra_DO_vert_7b.py              # Colab/QLoRA script to train the 7B model
 
-├── datasets/                           # 🌱 Jeux de données pour le SFT
-│   ├── train_tomate_azote_DO_pH_1000.jsonl   # Dataset complet d'entraînement (1000 lignes)
-│   └── eval_tomate_azote_DO_pH_20.jsonl      # Jeu d'évaluation manuel (20 lignes)
+├── datasets/                           # 🌱 Datasets for SFT (Supervised Fine-Tuning)
+│   ├── train_tomato_nitrogen_DO_pH_1000.jsonl   # Full training dataset (1000 rows)
+│   └── eval_tomato_nitrogen_DO_pH_20.jsonl      # Manual evaluation set (20 rows)
 
-├── graphs_statistics/                  # 📊 Analyses et visualisations du dataset
-│   ├── bilan_analyse_GPT_stat.txt      # Analyse textuelle du dataset par GPT-5.1 (Diagrams)
-│   ├── statistic_dataset_nitrogen.png  # Graphique : répartition des diagnostics azote
-│   └── statistic_DO_vert_barchart.png  # Graphique : distribution des valeurs DO verte
+├── graphs_statistics/                  # 📊 Dataset analyses and visualizations
+│   ├── bilan_analyse_GPT_stat.txt      # Textual dataset analysis by GPT-5.1 (Diagrams)
+│   ├── statistic_dataset_nitrogen.png  # Chart: distribution of nitrogen diagnostics
+│   └── statistic_DO_vert_barchart.png  # Chart: distribution of DO Green values
+
 ```
 ---
 
