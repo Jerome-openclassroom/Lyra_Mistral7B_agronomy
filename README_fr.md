@@ -178,6 +178,9 @@ Améliorations du 7B LoRA :
 ✔ Erreur < ±1 SPAD  
 ✔ Fonction physiologique encodée dans le modèle  
 
+Origine du modèle : 
+https://github.com/Jerome-openclassroom/Lyra_DO_Green_Mesurim/blob/main/README_fr.md#-graphiques-de-corr%C3%A9lation
+
 ---
 
 # 🎯 Conclusion
