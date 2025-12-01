@@ -28,8 +28,8 @@ The project is part of a broader effort to build community-accessible AI tools f
 📁 Arborescence du dépôt — Lyra_Mistral7B_agronomy
 ```
 Lyra_Mistral7B_agronomy/
-├── README.md                           # 📘 Main documentation (French version)
-├── README_en.md                        # 📘 English version of the README
+├── README.md                           # 📘 Main documentation (English version )
+├── README_fr.md                        # 📘 French version of the README
 
 ├── code/                               # 🧠 Training & inference scripts
 │   └── Lyra_DO_vert_7b.py              # Colab/QLoRA script to train the 7B model
