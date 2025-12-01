@@ -1,4 +1,11 @@
-# Lyra – Mistral 7B Agronomy (LoRA)
+<img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" width="100px" height="auto" />
+
+![EUstack](https://img.shields.io/badge/🇪🇺%20EUstack-ready-blue)
+![SouverainAI](https://img.shields.io/badge/🇫🇷%20SouverainAI-oui-success)
+![LLM_Mistral](https://img.shields.io/badge/🧠%20LLM-Mistral_Small-lightblue)
+
+
+# 🇫🇷 Lyra – Mistral 7B Agronomy (LoRA)
 
 A specialized Mistral 7B model fine-tuned (QLoRA) to perform agronomic diagnosis on tomato plants using three parameters:
 - Soil nitrate (NO₃, mg/kg)  
