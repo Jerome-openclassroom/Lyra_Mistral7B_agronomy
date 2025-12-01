@@ -1,0 +1,29 @@
+# Synthèse de l'analyse du dataset `train_tomate_azote_DO_pH_1000_v2.jsonl`
+
+## 1. Structure et intégrité
+- Nombre total de lignes : 1000  
+- Doublons stricts : 0  
+- Format : conforme au schéma `{"messages": [{"role": "...", "content": "..."}]}`  
+→ Le fichier est propre et exploitable sans retraitement préalable.
+
+## 2. Analyse des occurrences globales
+**Dans l’ensemble du dataset :**
+- "chlorose ferrique" : 71 lignes  
+- "stress non azoté" : 1000 lignes (mention systématique dans les prompts système --> normal)
+
+**Dans les réponses du modèle (`role: "assistant"`) :**
+- "chlorose ferrique" : 71 occurrences  
+- "stress non azoté" : 0 occurrence  
+- "lutte intégrée" : 277 occurrences
+
+## 3. Répartition du terme "lutte intégrée"
+- Présent dans 27,7 % des réponses  
+- Absent dans 72,3 % des réponses  
+- Les mentions apparaissent principalement dans les cas de diagnostic "excès_N_fort" ou "excès_N_léger", en lien avec des conseils de gestion raisonnée (limitation des intrants, surveillance, auxiliaires, etc.).
+
+## 4. Interprétation synthétique
+- Dataset propre, sans doublons.  
+- Structure JSONL valide et homogène.  
+- Bon équilibre entre diagnostic et explication agronomique.  
+- Les occurrences de "lutte intégrée" apportent une diversité utile pour un modèle d’aide au diagnostic raisonné.  
+- La cohérence lexicale et la distribution thématique sont adaptées à un POC/MVP d’entraînement.
