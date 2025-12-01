@@ -142,7 +142,7 @@ This is the behavior of a *specialized expert model*, not a generic LLM.
 
 ---
 
-# 🔬 Comparison with Mistral-8B (server-side fine-tuning)
+# 🔬 Comparison with Mistral-8B (server-side fine-tuning called 'AI-Studio')
 
 A server-side Mistral-8B fine-tune was performed first.  
 Despite being trained on the same dataset, the 8B model:
