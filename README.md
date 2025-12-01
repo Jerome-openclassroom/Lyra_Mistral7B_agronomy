@@ -89,6 +89,28 @@ Each example contains:
 
 The dataset is **0% duplicate**, both in strict and semantic checks.
 
+## 📈 Distribution of Nitrogen Diagnostics
+
+![Distribution of nitrogen diagnostics](graphs_statistics/statistic_dataset_nitrogen.png)
+
+This chart shows the distribution of the six nitrogen diagnostic classes in the training dataset.  
+A deliberately controlled balance between categories can be observed, with targeted additions for:
+- cases of **non-nitrogen stress**  
+- cases of **ferric chlorosis** (high pH)
+
+This structuring allowed the model to correctly learn atypical behaviors,  
+while maintaining good generalization on normal situations.
+
+## 📉 Distribution of Green Optical Density (DO)
+
+![Distribution of Green Optical Density](graphs_statistics/statistic_DO_vert_barchart.png)
+
+The distribution of green optical density (250–550) follows a wide and continuous range,  
+with a mean around 380 and a standard deviation of ~90.  
+This variability is essential for the model to learn the physiological relationship  
+between **leaf greenness → chlorophyll → SPAD**, as well as the characteristic deviations  
+of stress situations (low DO) or excessive vigor (high DO).
+
 ---
 
 # 🏋️ Training (QLoRA)
