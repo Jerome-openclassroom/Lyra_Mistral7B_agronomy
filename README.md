@@ -186,6 +186,9 @@ The theoretical formula used to generate the dataset is:
 
 **SPAD = 0.178 × DO − 36.454**
 
+Source of the model :
+https://github.com/Jerome-openclassroom/Lyra_DO_Green_Mesurim?tab=readme-ov-file#-correlation-graphs
+
 We tested several cases, with the following results:
 
 | Green DO | Expected SPAD (theoretical) | Model-predicted SPAD | Difference |
